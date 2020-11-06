@@ -8,7 +8,7 @@ import { LoginComponent } from './login/login.component';
 const routes: Routes = [
   /*criando rota , arrays*/
   /**Abrir o site já na pagina home */
-  {path: 'vazio', redirectTo: 'home', pathMatch: 'full' },
+  {path: '', redirectTo: 'home', pathMatch: 'full' },
   /**Rota Home */
   { path: 'home', component: HomeComponent },
   /**Rota Feed */
