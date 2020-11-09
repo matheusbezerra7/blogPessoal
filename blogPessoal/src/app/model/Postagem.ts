@@ -1,4 +1,4 @@
-import { tema } from './Tema';
+import { Tema } from './Tema';
 
 export class Postagem {
 
@@ -6,6 +6,6 @@ export class Postagem {
     public titulo: string;
     public texto: string;
     public data: Date;
-    public tema: tema;
+    public tema: Tema;
 }   
 
